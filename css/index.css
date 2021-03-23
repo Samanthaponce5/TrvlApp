@@ -1,0 +1,53 @@
+*{
+    margin:0;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(202, 189, 189);
+}
+
+
+
+.nav{
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#logo{
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.nav-ul{
+    align-self: flex-end;
+    margin: -20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav-ul li a, #logo a{
+    color: white;
+    text-transform: capitalize;
+    padding: 35px;
+
+}
+
+a{
+    text-decoration: none; 
+}
+
+
+/* ===========================End of Navbar============================== */
+
+.section{
+    height: 100%;
+    border-bottom:solid white ;
+    padding-top: 55px;
+}
