@@ -6,8 +6,8 @@ $(function(){
    let images =[
        "img/New_York_River_Road.jpeg",
        "img/UpState.jpeg",
-       "img/watkins.jpeg",
-       "img/katerskils.jpeg"
+       "img/kucab8gricix.jpeg",
+       "img/Wat-park.jpeg"
    ]
 
    let i = 0 
@@ -18,8 +18,7 @@ $(function(){
     gallery.fadeOut(function(){
         $(this).attr('src', images[i]).fadeIn()
     })
-    
-   },3350)
+   },3400)
 
 //    End of carousel
 

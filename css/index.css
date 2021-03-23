@@ -16,7 +16,8 @@ html, body {
     height: 55px;
     display: flex;
     flex-direction: column;
-    
+    z-index: 99;
+    font-size: 20px;
 }
 #logo{
     align-self: flex-start;
@@ -43,6 +44,20 @@ a{
     text-decoration: none; 
 }
 
+/* ====================== Home ======================== */
+.images{
+    position: relative;
+    width: 100% ;
+    height: 50%;
+    object-fit: cover;
+    margin-top: 2px;
+}
+
+.welcome-block h1{
+    font-family: "Montserrat",sans-serif;
+    width: 25%;
+    line-height: 1.3;
+}
 
 /* ===========================End of Navbar============================== */
 
