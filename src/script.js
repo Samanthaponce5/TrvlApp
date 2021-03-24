@@ -33,9 +33,26 @@ $(function(){
     })
    },3600)
 
-
-
-
 //    End of carousel
+
+// ======About Page Image hover=====
+
+let aboutImages = $('.right-about').find('img')
+
+aboutImages.mouseenter(function(){
+    $(this).stop().css({
+        width:'400px',
+        zIndex:2
+    })
+})
+
+aboutImages.mouseleave(function(){
+    $(this).stop().css({
+        zIndex:0,
+        width:'310px'
+    })
+})
+
+// =====About end===========
 
 })
