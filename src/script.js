@@ -4,7 +4,7 @@ $(function(){
    let links =  $('.nav-ul').find(' li a')
 
    links.mouseenter(function(){
-       $(this).css({backgroundColor:'#025094'})
+       $(this).css({backgroundColor:'#c2bebe'})
    })
    links.mouseleave(function(){
        $(this).css({backgroundColor:'inherit'})

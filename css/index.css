@@ -6,26 +6,28 @@
 
 html, body {
     height: 100%;
-    background-color: rgb(223, 223, 223);
-    font-family: "Montserrat",sans-serif;
+    background-color: #fff;
+    font-family: Arial,sans-serif;;
 }
 
 
 
 .nav{
     position: fixed;
-    background-color: #056cc4;
+    background-color: #fff;
     width: 100%;
     height: 70px;
     display: flex;
     flex-direction: column;
     z-index: 99;
     font-size: 20px;
+    border-bottom: 1px solid rgba(146, 144, 144, 0.233);
     /* font-family: 'Balsamiq Sans', cursive; */
 }
 #logo{
     align-self: flex-start;
     margin-top: 15px;
+    
 }
 
 .nav-ul{
@@ -41,15 +43,20 @@ nav ul li{
 
 
 .nav-ul li a, #logo a{
-    color: white;
+    color: black;
     text-transform: capitalize;
-    padding: 10px 15px 10px;
+    padding: 14px 15px 14px;
+    font-weight: bolder;
 
+}
+#logo a{
+    color: #056cc4;
 }
 
 a{
     text-decoration: none; 
 }
+/* ===========================End of Navbar============================== */
 
 /* ====================== Home ======================== */
 .images{
@@ -63,7 +70,7 @@ a{
 .welcome{
   
     font-weight: bolder;
-    width: 25%;
+    width: 30%;
     line-height: 1.3;
     color: #056cc4;
     padding: 4%;
@@ -90,8 +97,63 @@ a{
     font-weight: 100;
 
 }
-/* ===========================End of Navbar============================== */
+/* ==========================End Of Home===================================== */
 
+/* ==================About===================== */
+.about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.about-block{
+    display: flex;
+    padding: 0px 100px 0px;
+}
+
+.about-block img{
+    width: 310px;
+}
+.left-about{
+    align-items: center;
+    width: 50%;
+    padding-right: 50px;
+
+}
+.left-about p{
+    position: relative;
+    top: 25px;
+    line-height: 2em;
+}
+.right-about{
+    position: relative;
+}
+.about-img1{
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 10px 18px #888888;
+    /* border: 1px red solid; */
+}
+.about-img2{
+    position: absolute;
+  top: 65px;
+  left: 175px;
+  box-shadow: 5px 10px 18px #888888;
+
+  /* border: 10px green solid; */
+}
+.about-img3{
+    position: absolute;
+  top: 200px;
+  left: 30px;
+  box-shadow: 5px 10px 18px #888888;
+
+  /* border: 10px rgb(102, 0, 128) solid; */
+}
+/* ==================End of About============== */
 .section{
     height: 100%;
     border-bottom:solid white ;
