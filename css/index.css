@@ -16,7 +16,7 @@ html, body {
     position: fixed;
     background-color: #056cc4;
     width: 100%;
-    height: 85px;
+    height: 70px;
     display: flex;
     flex-direction: column;
     z-index: 99;
@@ -25,7 +25,7 @@ html, body {
 }
 #logo{
     align-self: flex-start;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .nav-ul{
@@ -36,12 +36,14 @@ html, body {
 nav ul li{
     list-style: none;
     display: inline;
+    
 }
+
 
 .nav-ul li a, #logo a{
     color: white;
     text-transform: capitalize;
-    padding: 35px;
+    padding: 10px 15px 10px;
 
 }
 
@@ -93,5 +95,5 @@ a{
 .section{
     height: 100%;
     border-bottom:solid white ;
-    padding-top: 55px;
+    padding-top: 70px;
 }
