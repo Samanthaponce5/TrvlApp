@@ -1,5 +1,18 @@
 $(function(){
 
+    // Navbar
+   let links =  $('.nav-ul').find(' li a')
+
+   links.mouseenter(function(){
+       $(this).css({backgroundColor:'#025094'})
+   })
+   links.mouseleave(function(){
+       $(this).css({backgroundColor:'inherit'})
+   })
+    
+
+
+
     // Making carousel 
    let gallery = $('#home').find("img").first()
 
@@ -18,7 +31,10 @@ $(function(){
     gallery.fadeOut(function(){
         $(this).attr('src', images[i]).fadeIn()
     })
-   },3400)
+   },3600)
+
+
+
 
 //    End of carousel
 

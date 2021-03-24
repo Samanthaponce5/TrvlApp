@@ -1,23 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
 *{
     margin:0;
 }
 
 html, body {
     height: 100%;
-    background-color: rgb(202, 189, 189);
+    background-color: rgb(223, 223, 223);
+    font-family: "Montserrat",sans-serif;
 }
 
 
 
 .nav{
     position: fixed;
-    background-color: blue;
+    background-color: #056cc4;
     width: 100%;
-    height: 55px;
+    height: 85px;
     display: flex;
     flex-direction: column;
     z-index: 99;
     font-size: 20px;
+    /* font-family: 'Balsamiq Sans', cursive; */
 }
 #logo{
     align-self: flex-start;
@@ -27,6 +31,7 @@ html, body {
 .nav-ul{
     align-self: flex-end;
     margin: -20px;
+    margin-right: 20px;
 }
 nav ul li{
     list-style: none;
@@ -53,12 +58,36 @@ a{
     margin-top: 2px;
 }
 
-.welcome-block h1{
-    font-family: "Montserrat",sans-serif;
+.welcome{
+  
+    font-weight: bolder;
     width: 25%;
     line-height: 1.3;
+    color: #056cc4;
+    padding: 4%;
+    text-transform: uppercase;
+    
+}
+.welcome-block{
+   display: flex;
+
 }
 
+
+.left-line{
+    border-left: 1.5px solid #c2bebe;
+    align-self: center;
+    height: 250px;
+    display: flex;
+}
+.sub-entrance{
+    align-self: center;
+    padding: 10%;
+    color: #056cc4;
+    font-size: 20px;
+    font-weight: 100;
+
+}
 /* ===========================End of Navbar============================== */
 
 .section{
