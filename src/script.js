@@ -60,8 +60,32 @@ aboutImages.mouseleave(function(){
 // ==========  Services  ==========
 
 
+let button = $('.price').find('button')
 
-
+button.mouseenter(function(){
+    $(this).css({
+        boxShadow:' 5px 10px 20px'
+    })
+})
+button.mouseleave(function(){
+    $(this).css({
+        boxShadow:'none'
+    })
+})
+button.mousedown(function(){
+    $(this).css({
+        width:'45%',
+        height:'65px',
+        fontSize:'17px'
+    })
+})
+button.mouseup(function(){
+    $(this).css({
+        width:'50%',
+        height:'70px',
+        fontSize:'20px'
+    })
+})
 
 
 
