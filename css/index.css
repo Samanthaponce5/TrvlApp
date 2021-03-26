@@ -216,6 +216,12 @@ a{
     color: black;
 
   }
+  .front img{
+      position: relative;
+      width: 100%;
+      clip-path: circle(100% at 55% -35%);
+
+  }
   
   .back {
     background-color: #056cc4;
@@ -225,7 +231,7 @@ a{
 
     .service-detail{
       list-style: none;
-      margin-top: 65%;
+      /* margin-top: 65%; */
       padding: 0px 20px 0px;
       color: rgb(255, 253, 253);
 
