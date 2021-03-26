@@ -262,6 +262,56 @@ a{
 
 /* ===================End of Services =========== */
 
+/* ==========Contact Section=========== */
+
+.contact-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    /* display: none; */
+    padding: 55px;
+    text-align: center;
+  }
+  
+
+
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+/* ========End of contact section====== */
+
+/* Footer */
+
+footer{
+    background-color:#056cc4 ;
+    height: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(216, 216, 216);
+}
+footer span{
+    margin-bottom: 15px;
+}
+
+
 
 
 .section{
