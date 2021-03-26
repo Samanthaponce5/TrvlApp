@@ -327,4 +327,11 @@ footer span{
     height: 100%;
     border-bottom:solid white ;
     padding-top: 70px;
+    position: relative;
+}
+
+.dots{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
