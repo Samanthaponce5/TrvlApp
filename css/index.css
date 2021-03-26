@@ -239,7 +239,7 @@ a{
   .service-detail li{
       border-bottom:.5px solid rgba(255, 255, 255, 0.185);
       padding-bottom: 20px;
-      padding-top: 20px;
+      padding-top: 15px;
   } 
   
   .price{
