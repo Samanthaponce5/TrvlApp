@@ -38,7 +38,9 @@ $(function(){
 // ======About Page Image hover=====
 
 let aboutImages = $('.right-about').find('img')
+let windowSize = $(window).width();
 
+if(windowSize >= 861){
 aboutImages.mouseenter(function(){
     $(this).stop().css({
         width:'400px',
@@ -52,6 +54,7 @@ aboutImages.mouseleave(function(){
         width:'310px'
     })
 })
+}
 
 // =====About end===========
 

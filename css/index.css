@@ -9,6 +9,7 @@ html, body {
     height: 100%;
     background-color: #fff;
     font-family: Arial,sans-serif;;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -324,7 +325,7 @@ footer span{
 
 
 .section{
-    height: 100%;
+    height: 825px;
     border-bottom:solid white ;
     padding-top: 70px;
     position: relative;
@@ -334,4 +335,109 @@ footer span{
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+@media (max-width:1237px){
+    
+    .service-card{
+        margin-right:2% ;
+        margin-left: 2%;
+        height:510px ;
+        width: 305px;
+    }
+    .about-block img{
+        width: 250px;
+    }
+
+    .about-img2{
+      left: 155px;
+    }
+    .about-img3{
+      top: 170px;
+    }
+    .about-block p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 942px){
+    .dots{
+        width: 300px;
+    }
+    .service-card{
+        width: 275px;
+    }
+}
+
+@media (max-width:908px){
+    .service-card{
+        margin-right:1% ;
+        margin-left: 1%;
+        height:495px ;
+        width: 275px;
+    }
+
+    .about-img2{
+        left: 145px;
+      }
+      .about-block{
+          padding: 0 25px 0;
+      }
+
+      .about-block img{
+        width: 245px;
+    }
+
+    .about-img1{
+        top: 50px;
+        left: 0;
+    }
+    .about-img2{
+       top: 90px;
+        left: 100px;
+    }
+    .about-img3{
+        left: 10px;
+    }
+    .welcome h1{
+        font-size: 25px;
+    }
+     
+}
+
+@media (max-width:860px){
+    .about-img1{
+        top: 0;
+        left: 0;
+    }
+    .about-img2{
+       top: 170px;
+        left:0;
+        box-shadow: none;
+
+    }
+    .about-img3{
+        left: 0;
+        top: 330px;
+    }
+
+    .service-card{
+        margin-right:1% ;
+        margin-left: 1%;
+        height:495px ;
+        width: 225px;
+    }
+    .welcome h1{
+        font-size: 20px;
+    }
+    .sub-entrance h3{
+        font-size: 19px;
+    }
+
+
+}
+
+@media (max-width:692px){
+    
 }
